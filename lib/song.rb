@@ -45,8 +45,9 @@ class Song
     @@genres.each do |genre|
       genres_count[genre]||=0
       genres_count[genre]+1
+      binding.pry
     end
-    binding.pry
+
     genres_count
 
   end
